@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Raw CIC-IDS2017 dataset
+data/MachineLearningCVE/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
