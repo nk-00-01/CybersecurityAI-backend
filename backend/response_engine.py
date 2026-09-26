@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime,timezone
 
 
 # --------------------------------------------------
@@ -35,7 +35,7 @@ def process_threat(source_ip, attack_type, confidence):
 
     confidence = float(confidence)
 
-    timestamp = datetime.now().isoformat()
+    timestamp = datetime.now(timezone.utc).isoformat()
 
     # ----------------------------------------------
     # BENIGN
